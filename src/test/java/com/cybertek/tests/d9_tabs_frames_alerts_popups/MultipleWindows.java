@@ -58,7 +58,7 @@ public class MultipleWindows {
                 driver.switchTo().window(windowHandle);
             }
         }
-        System.out.println("After switching "+driver.getTitle());
+        System.out.println("After switching: "+driver.getTitle());
 
     }
 

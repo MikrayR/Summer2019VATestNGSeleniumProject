@@ -26,7 +26,7 @@ public class AnotherRadioButtonTest {
 
         //basketball.isSelected()
         Assert.assertFalse(football.isSelected());
-
+        System.out.println(football.isSelected());
     }
 
 

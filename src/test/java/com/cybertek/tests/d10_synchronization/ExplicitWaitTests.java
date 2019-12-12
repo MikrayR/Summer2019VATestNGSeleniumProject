@@ -31,7 +31,9 @@ public class ExplicitWaitTests {
     @Test
     public void test1WaitForVisible() {
         driver.get("http://practice.cybertekschool.com/dynamic_loading/1");
-
+        //This waits for elements to be found in HTML.
+        // It only works when we call the findElement method.
+        // Implicitly wait only waits until the element is located.
         //click on start
         driver.findElement(By.tagName("button")).click();
         // click on start that will display the input field ( using firefox Webbrowser)

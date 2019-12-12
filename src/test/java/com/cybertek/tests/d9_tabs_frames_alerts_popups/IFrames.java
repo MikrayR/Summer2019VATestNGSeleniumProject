@@ -32,7 +32,8 @@ public class IFrames {
         //1. ID or Name
         driver.switchTo().frame("mce_o_ifr");
         driver.findElement(By.id("tinymce")).sendKeys("Hello");
-        // when get not such element exeption we can give more time but if it not working then check that html is single or one html inside has another html
+        // when get not such element exeption we can give more time but if it not working then
+        // check that html is single or one html inside has another html
         // then we need to switch to iframe first. when it is happen it will not see the default page but only iframe
         // go back to firs frame ---->(defaultContent())
         // useful when we have switched multiple frames and wnat to come to main content
@@ -49,6 +50,6 @@ public class IFrames {
         driver.findElement(By.id("tinymce")).sendKeys("ItIsMeeeee");
         driver.findElement(By.id("tinymce")).sendKeys("new text");
 
-    }
+   }
 
 }

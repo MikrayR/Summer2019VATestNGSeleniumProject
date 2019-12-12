@@ -20,6 +20,7 @@ public class TestNGAssertionsTest {
     public void test2(){
         Assert.assertNotEquals("one", "two");
     }
+
     @Test
     public void test3(){
         String expectedTitle="Cbt";
